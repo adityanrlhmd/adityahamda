@@ -55,7 +55,7 @@ export const Works = () => {
               <img src={ project.image } alt={ project.alter }/>
             </div>
             <div className="__content_wrapper">
-              <h3 className="title">
+              <h3 className="title text-center">
                 <TextDecrypt text={ project.id + '. ' + project.title } />
               </h3>
               <p className="description">
