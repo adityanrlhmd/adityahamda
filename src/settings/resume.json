@@ -1,0 +1,141 @@
+{
+    "basics": {
+        "name": "Aditya Hamda",
+        "label": "Frontend Developer",
+        "email": "adityanurulhamdagmail.com",
+        "phone": "(+62) 813-8865-7516",
+        "picture": "mt.png",
+        "x_title": "Hello, I'm",
+        "job1": "Frontend",
+        "job2": "Developer",
+        "description": "Hello! I'm Aditya. Fresh graduate dan frontend enthusiastic junior programmer. Motivated by the things programming can do. I am interested in learning, self motivated and team work people. I hope to be a great developer and get my dream job in the future. Apart from coding, I also like listening to music and playing video games.",
+        "summary": "based in Sukabumi, Indonesia.",
+        "keywords": "personal,website,portfolio,template,kit,aditya,nurul,hamda,webdev,web,developer,sukabumi,indonesia,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp",
+        "url": "https://taniyow.vercel.app/",
+        "location": {
+            "address": "Kp. Kebon Pala 1 Cibadak",
+            "postalCode": "XXXXX",
+            "city": "Sukabumi",
+            "country": "Indonesia",
+            "countryCode": "IND",
+            "region": "Jawa Barat"
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "adityanurulhamda@gmail.com",
+                "url": "mailto:adityanurulhamda@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "adityanurulhamda",
+                "url": "https://www.linkedin.com/in/adityanurulhamda/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "adityanrlhmd",
+                "url": "https://github.com/adityanrlhmd",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "GitLab",
+                "username": "adityanrlhmd",
+                "url": "https://gitlab.com/adityanrlhmd",
+                "x_icon": "fab fa-gitlab"
+            },
+            {
+                "network": "Telegram",
+                "username": "adittnh",
+                "url": "https://t.me/adittnh",
+                "x_icon": "fab fa-telegram-plane"
+            },
+            {
+                "network": "Discord",
+                "username": "aditt#1360",
+                "url": "https://discord.com",
+                "x_icon": "fab fa-discord"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Company",
+            "position": "President",
+            "website": "http://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description...",
+            "highlights": ["Started the company"]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "website": "http://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description...",
+            "highlights": ["Awarded 'Volunteer of the Month'"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Nusa Putra University",
+            "area": "Informatics Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2018-08-10",
+            "endDate": "2022-09-10",
+            "gpa": "3.3",
+            "courses": ["Web Development"]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Junior",
+            "keywords": ["HTML", "CSS", "Javascript", "SASS", "Bootstrap", "TailwindCSS", "Laravel", "ReactJS", "NodeJS", "ExpressJS", "MongoDB"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Indonesia",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Good knowledge"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": ["Ferrets", "Unicorns"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference..."
+        }
+    ]
+}
