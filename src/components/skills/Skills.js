@@ -95,7 +95,7 @@ export const Skills = () => {
     <section id="skills">
         <Container component="main" className='' maxWidth="md">
             <div className='skills pt-12 md:pt-44 pb-32'>
-                <div className='grid justify-center grid-cols-3 md:grid-cols-5 gap-6 px-24 md:px-36'>
+                <div className='grid justify-center grid-cols-2 md:grid-cols-5 gap-6 px-24 md:px-36'>
                     {skills.map((skill) => (
                         <div className='flex justify-center flex-col text-center'>
                             <a href={ skill.link } className="flex justify-center">
