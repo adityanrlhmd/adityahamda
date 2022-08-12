@@ -16,7 +16,7 @@ import Bootstrap from '../../assets/skills/bootstrap.png';
 import NextJS from '../../assets/skills/next.svg';
 import MongoDB from '../../assets/skills/mongodb.svg';
 import Redux from '../../assets/skills/redux.svg';
-import Git from '../../assets/skills/git.svg';
+import Git from '../../assets/skills/git.png';
 
 export const Skills = () => {
     const [skills, setSkills] = useState([
