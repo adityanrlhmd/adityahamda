@@ -15,8 +15,8 @@ import TailwindCSS from '../../assets/skills/tailwindcss.svg';
 import Bootstrap from '../../assets/skills/bootstrap.png';
 import NextJS from '../../assets/skills/next.svg';
 import MongoDB from '../../assets/skills/mongodb.svg';
-// import Laravel from '../../assets/skills/laravel.svg';
-// import MySQL from '../../assets/skills/mysql.svg';
+import Redux from '../../assets/skills/redux.svg';
+import Git from '../../assets/skills/git.svg';
 
 export const Skills = () => {
     const [skills, setSkills] = useState([
@@ -64,9 +64,9 @@ export const Skills = () => {
         },
         { 
           id: 8,
-          title: 'ExpressJS',
-          image: `${ExpressJS}`,
-          link: 'https://expressjs.com/',
+          title: 'Redux',
+          image: `${Redux}`,
+          link: 'https://redux.js.org/',
         },
         { 
           id: 9,
@@ -76,20 +76,22 @@ export const Skills = () => {
         },
         { 
           id: 10,
+          title: 'ExpressJS',
+          image: `${ExpressJS}`,
+          link: 'https://expressjs.com/',
+        },
+        { 
+          id: 11,
           title: 'MongoDB',
           image: `${MongoDB}`,
-          link: 'https://www.mongodb.com/',
+          link: 'https://www.mongodb.com/'
         },
-        // { 
-        //   id: 11,
-        //   title: 'Laravel',
-        //   image: `${Laravel}`,
-        // },
-        // { 
-        //   id: 12,
-        //   title: 'MySQL',
-        //   image: `${MySQL}`,
-        // },
+        { 
+          id: 12,
+          title: 'Git',
+          image: `${Git}`,
+          link: 'https://git-scm.com/'
+        },
       ]);
   return (
     <section id="skills">
