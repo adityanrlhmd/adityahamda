@@ -25,11 +25,13 @@
   margin-right: 20px;
   text-decoration: none;
   color: #464646;
+  padding: 3px 6px;
+  border-radius: 3px;
 }
 .contact-btn:hover {
   margin-right: 20px;
   text-decoration: none;
-  background-color: #ec704c;
+  background-color: #4d94c4;
 }
 @media (max-width: 1024px) {
   .about {
