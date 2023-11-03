@@ -127,7 +127,12 @@ export const Skills = () => {
                 key={index}
                 className="flex flex-col justify-center text-center"
               >
-                <a href={skill.link} className="flex justify-center">
+                <a
+                  href={skill.link}
+                  target="_blank"
+                  className="flex justify-center"
+                  rel="noreferrer"
+                >
                   <img
                     className="w-[60px] transition duration-300 hover:scale-110 "
                     src={skill.image}
