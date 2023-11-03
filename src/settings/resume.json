@@ -49,12 +49,6 @@
                 "username": "adittnh",
                 "url": "https://t.me/adittnh",
                 "x_icon": "fab fa-telegram-plane"
-            },
-            {
-                "network": "Discord",
-                "username": "aditt#1360",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
             }
         ]
     },
