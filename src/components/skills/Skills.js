@@ -1,114 +1,145 @@
-import React from 'react'
+import React from "react";
 import { useState } from "react";
 import { Container } from "@material-ui/core";
-// import { makeStyles } from "@material-ui/core/styles";
-// import { TextDecrypt } from "../content/TextDecrypt";
+import { iconsSkills } from "./icon-skills";
 
-// Import ../../assets/skills/
-import Html from '../../assets/skills/html.svg';
-import Css from '../../assets/skills/css.svg';
-import Javascript from '../../assets/skills/javascript.svg';
-import NodeJS from '../../assets/skills/nodejs.svg';
-import ReactJS from '../../assets/skills/react.svg';
-import ExpressJS from '../../assets/skills/expressjs.svg';
-import TailwindCSS from '../../assets/skills/tailwindcss.svg';
-import Bootstrap from '../../assets/skills/bootstrap.png';
-import NextJS from '../../assets/skills/next.svg';
-import MongoDB from '../../assets/skills/mongodb.svg';
-import Redux from '../../assets/skills/redux.svg';
-import Git from '../../assets/skills/git.png';
+const {
+  Html,
+  Css,
+  Javascript,
+  Typescript,
+  NodeJS,
+  VueJs,
+  Vite,
+  ReactJS,
+  ExpressJS,
+  TailwindCSS,
+  NextJS,
+  MongoDB,
+  Git,
+  Expo,
+  Swift,
+  SwiftUI,
+  Supabase,
+} = iconsSkills;
 
 export const Skills = () => {
-    const [skills, setSkills] = useState([
-        { 
-          id: 1,
-          title: 'HTML',
-          image: `${Html}`,
-          link: 'https://www.w3schools.com/html/default.asp',
-        },
-        { 
-          id: 2,
-          title: 'CSS',
-          image: `${Css}`,
-          link: 'https://www.w3schools.com/css/default.asp',
-        },
-        { 
-          id: 3,
-          title: 'Javascript',
-          image: `${Javascript}`,
-          link: 'https://www.w3schools.com/js/default.asp',
-        },
-        { 
-          id: 4,
-          title: 'TailwindCSS',
-          image: `${TailwindCSS}`,
-          link: 'https://www.tailwindcss.com',
-        },
-        { 
-          id: 5,
-          title: 'Bootstrap',
-          image: `${Bootstrap}`,
-          link: 'https://getbootstrap.com/',
-        },
-        { 
-          id: 6,
-          title: 'NodeJS',
-          image: `${NodeJS}`,
-          link: 'https://nodejs.org/',
-        },
-        { 
-          id: 7,
-          title: 'ReactJS',
-          image: `${ReactJS}`,
-          link: 'https://reactjs.org/',
-        },
-        { 
-          id: 8,
-          title: 'Redux',
-          image: `${Redux}`,
-          link: 'https://redux.js.org/',
-        },
-        { 
-          id: 9,
-          title: 'NextJS',
-          image: `${NextJS}`,
-          link: 'https://nextjs.org/',
-        },
-        { 
-          id: 10,
-          title: 'ExpressJS',
-          image: `${ExpressJS}`,
-          link: 'https://expressjs.com/',
-        },
-        { 
-          id: 11,
-          title: 'MongoDB',
-          image: `${MongoDB}`,
-          link: 'https://www.mongodb.com/'
-        },
-        { 
-          id: 12,
-          title: 'Git',
-          image: `${Git}`,
-          link: 'https://git-scm.com/'
-        },
-      ]);
+  const [skills] = useState([
+    {
+      title: "HTML",
+      image: `${Html}`,
+      link: "https://www.w3schools.com/html/default.asp",
+    },
+    {
+      title: "CSS",
+      image: `${Css}`,
+      link: "https://www.w3schools.com/css/default.asp",
+    },
+    {
+      title: "JavaScript",
+      image: `${Javascript}`,
+      link: "https://www.javascript.com",
+    },
+    {
+      title: "TypeScript",
+      image: `${Typescript}`,
+      link: "https://www.typescriptlang.org",
+    },
+    {
+      title: "Tailwind CSS",
+      image: `${TailwindCSS}`,
+      link: "https://www.tailwindcss.com",
+    },
+    {
+      title: "Node JS",
+      image: `${NodeJS}`,
+      link: "https://nodejs.org/",
+    },
+    {
+      title: "React JS",
+      image: `${ReactJS}`,
+      link: "https://reactjs.org/",
+    },
+    {
+      title: "Next JS",
+      image: `${NextJS}`,
+      link: "https://nextjs.org/",
+    },
+    {
+      title: "Vue Js",
+      image: `${VueJs}`,
+      link: "https://vuejs.org/",
+    },
+    {
+      title: "Vite",
+      image: `${Vite}`,
+      link: "https://vitejs.dev/",
+    },
+    {
+      title: "React Native",
+      image: `${ReactJS}`,
+      link: "https://reactnative.dev/",
+    },
+    {
+      title: "Expo",
+      image: `${Expo}`,
+      link: "https://expo.dev",
+    },
+    {
+      title: "Swift",
+      image: `${Swift}`,
+      link: "https://www.swift.org",
+    },
+    {
+      title: "Swift UI",
+      image: `${SwiftUI}`,
+      link: "https://developer.apple.com/xcode/swiftui/",
+    },
+    {
+      title: "Express JS",
+      image: `${ExpressJS}`,
+      link: "https://expressjs.com/",
+    },
+    {
+      title: "MongoDB",
+      image: `${MongoDB}`,
+      link: "https://www.mongodb.com/",
+    },
+    {
+      title: "Supabase",
+      image: `${Supabase}`,
+      link: "https://supabase.com/",
+    },
+    {
+      title: "Git",
+      image: `${Git}`,
+      link: "https://git-scm.com/",
+    },
+  ]);
+
   return (
     <section id="skills">
-        <Container component="main" className='' maxWidth="md">
-            <div className='skills pt-12 md:pt-44 pb-32'>
-                <div className='grid justify-center grid-cols-2 md:grid-cols-6 gap-6 px-24 md:px-36'>
-                    {skills.map((skill) => (
-                        <div className='flex justify-center flex-col text-center'>
-                            <a href={ skill.link } className="flex justify-center">
-                              <img className='w-[60px] transition duration-300 hover:scale-110 ' src={ skill.image } alt={ skill.title }/>
-                            </a>
-                            <p>{ skill.title }</p>
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </Container>
+      <Container component="main" className="" maxWidth="md">
+        <div className="flex items-center min-h-screen py-32 md:py-0 skills">
+          <div className="grid justify-center grid-cols-2 gap-6 px-24 md:grid-cols-6 md:px-36">
+            {skills.map((skill, index) => (
+              <div
+                key={index}
+                className="flex flex-col justify-center text-center"
+              >
+                <a href={skill.link} className="flex justify-center">
+                  <img
+                    className="w-[60px] transition duration-300 hover:scale-110 "
+                    src={skill.image}
+                    alt={skill.title}
+                  />
+                </a>
+                <p className="whitespace-nowrap">{skill.title}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Container>
     </section>
-  )
-}
+  );
+};

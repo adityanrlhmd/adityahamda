@@ -4,7 +4,6 @@ nav {
   flex-direction: row-reverse;
   transform: rotate(-90deg) translate3d(-50%,0,0);
   top: 15%;
-  left: -6.5rem;
 }
 nav a {
   margin-right: 20px;
@@ -14,8 +13,4 @@ nav a {
 nav a:hover {
   margin-right: 20px;
   text-decoration: none;
-  color: #4d94c4;
-}
-nav a.active {
-  color: #4d94c4;
 }

@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   svgHover: {
-    fill: theme.palette.secondary.main,
+    fill: theme.palette.primary.main,
     '&:hover': {
       transform: 'scale(1.1)',
     },

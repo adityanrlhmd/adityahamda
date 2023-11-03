@@ -1,13 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { SpeedDial, SpeedDialIcon, SpeedDialAction } from "@material-ui/lab";
+import { SpeedDial, SpeedDialAction } from "@material-ui/lab";
 import Resume from "../../settings/resume.json";
 
 const useStyles = makeStyles((theme) => ({
     speedDial: {
       position: "absolute",
       top: theme.spacing(6),
-      right: theme.spacing(6),
     },
     iconColor: {
       color: theme.palette.foreground.default,
@@ -45,9 +44,9 @@ export const SpeedDials = () => {
       <>
         <SpeedDial
           ariaLabel="SpeedDial"
-          className={classes.speedDial}
+          className={classes.speedDial + " right-7 lg:right-12"}
           hidden={false}
-          icon={<SpeedDialIcon />}
+          icon={<span>+</span>}
           onClose={handleClose}
           onOpen={handleOpen}
           open={open}

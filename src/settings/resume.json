@@ -1,20 +1,19 @@
 {
     "basics": {
         "name": "Aditya Hamda",
-        "label": "Frontend Developer",
-        "email": "adityanurulhamdagmail.com",
+        "label": "Software Engineer",
+        "email": "adityanurulhamda@gmail.com",
         "phone": "(+62) 813-8865-7516",
         "picture": "mt.png",
-        "x_title": "Hello, I'm",
-        "job1": "Frontend",
-        "job2": "Developer",
-        "description": "Hello! I'm Aditya. Fresh graduate dan frontend enthusiastic junior programmer. Motivated by the things programming can do. I am interested in learning, self motivated and team work people. I hope to be a great developer and get my dream job in the future. Apart from coding, I also like listening to music and playing video games.",
+        "job1": "Software",
+        "job2": "Engineer",
+        "description": "I'm Aditya Nurul Hamda a Developer. With hands-on experience in front-end development, I've crafted a variety of web and mobile apps using React.js, React Native, Next.js, Vue.js Tailwind CSS, and Swift. Proficient in RESTful and GraphQL APIs, I prioritize user-friendly experiences and excel in collaborative teams. I also stay updated with industry trends.",
         "summary": "based in Sukabumi, Indonesia.",
-        "keywords": "personal,website,portfolio,template,kit,aditya,nurul,hamda,webdev,web,developer,sukabumi,indonesia,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp",
+        "keywords": "personal,website,portfolio,aditya,nurul,hamda,webdev,web,developer,sukabumi,indonesia,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,frontend,softwaredev",
         "url": "https://adityahamda.vercel.app/",
         "location": {
-            "address": "Kp. Kebon Pala 1 Cibadak",
-            "postalCode": "XXXXX",
+            "address": "Kebon Pala 1 Cibadak",
+            "postalCode": "43351",
             "city": "Sukabumi",
             "country": "Indonesia",
             "countryCode": "IND",
@@ -61,59 +60,131 @@
     },
     "work": [
         {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
+            "company": "OmindTech",
+            "position": "Internship Front End Developer",
+            "website": "https://omindtech.id/",
+            "startDate": "2021-04-01",
+            "endDate": "2021-11-20",
+            "summary": "Software House and IT Consultant",
+            "highlights": [
+                "Developed a website company profile for OmindTech"
+            ]
+        },
+        {
+            "company": "Tree Studio",
+            "position": "Web Developer",
+            "startDate": "2021-09-01",
+            "endDate": "2022-08-27",
+            "summary": "Software House",
+            "highlights": [
+                "Developed a website for Client"
+            ]
+        },
+        {
+            "company": "Leslar Metaverse",
+            "position": "Front End Developer",
+            "startDate": "2022-08-01",
+            "endDate": "2023-03-25",
+            "summary": "Engaged in blockchain services",
+            "highlights": [
+                "Developed a website for Leslar Metaverse",
+                "Developed a website and mobile app Cuan.Tv"
+            ]
+        },
+        {
+            "company": "KodX",
+            "position": "Software Engineer",
+            "startDate": "2023-03-28",
+            "endDate": "present",
+            "summary": "The company creates cutting-edge web and mobile apps to optimize business operations and enhance user experiences.",
+            "highlights": [
+                "Developed a website for KodX",
+                "Developed a website profile Client",
+                "Developed a mobile app for scanner Ticket Event"
+            ]
         }
     ],
     "volunteer": [
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "organization": "Himpunan Mahasiswa Teknik Informatika",
+            "position": "Head of the Danus Division",
+            "website": "https://hmti.nusaputra.ac.id/",
+            "startDate": "2019-01-10",
+            "endDate": "2021-05-01"
+        },
+        {
+            "organization": "Perhimpunan Mahasiswa Informatika dan Komputer Nasional",
+            "position": "Region V Members",
+            "website": "http://permikomnas.blogspot.com",
+            "startDate": "2019-01-10",
+            "endDate": "2021-05-01"
+        },
+        {
+            "organization": "Dewan Perwakilan Mahasiswa",
+            "position": "Student Affairs Commission",
+            "website": "https://nusaputra.ac.id/id/",
+            "startDate": "2021-01-10",
+            "endDate": "2021-08-01"
+        },
+        {
+            "organization": "Gerakan Anti Narkoba dan HIV/AIDS",
+            "position": "Information and Communication Division",
+            "website": "https://nusaputra.ac.id/id/",
+            "startDate": "2018-11-10",
+            "endDate": "2020-10-01"
         }
     ],
     "education": [
         {
             "institution": "Nusa Putra University",
             "area": "Informatics Engineering",
-            "studyType": "Bachelor",
+            "studyType": "Bachelor Degree",
             "startDate": "2018-08-10",
             "endDate": "2022-09-10",
-            "gpa": "3.3",
-            "courses": ["Web Development"]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "gpa": "3.3"
         }
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Junior",
-            "keywords": ["HTML", "CSS", "Javascript", "SASS", "Bootstrap", "TailwindCSS", "Laravel", "ReactJS", "NodeJS", "ExpressJS", "MongoDB"]
+            "name": "Programming Language",
+            "keywords": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "TypeScript",
+                "Swift"
+            ]
+        },
+        {
+            "name": "Tools",
+            "keywords": [
+                "NodeJs",
+                "Vite",
+                "Supabase",
+                "Firebase",
+                "Contentful",
+                "Directus"
+            ]
+        },
+        {
+            "name": "Libraries and Frameworks",
+            "keywords": [
+                "ReactJs",
+                "Next JS",
+                "Vue Js",
+                "Tailwind CSS",
+                "React Native",
+                "Expo",
+                "SwiftUI"
+            ]
+        },
+        {
+            "name": "Other",
+            "keywords": [
+                "Ant Design",
+                " Framer Motion",
+                "Git"
+            ]
         }
     ],
     "languages": [
@@ -124,18 +195,6 @@
         {
             "language": "English",
             "fluency": "Good knowledge"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
-        }
-    ],
-    "references": [
-        {
-            "name": "Jane Doe",
-            "reference": "Reference..."
         }
     ]
 }

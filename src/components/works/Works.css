@@ -19,9 +19,6 @@
   display: flex;
   justify-content: center;
 }
-.__img_wrapper > img {
-  /* width: 100%; */
-}
 .__content_wrapper {
   width: 40%;
   justify-content: center;
@@ -42,8 +39,8 @@
 }
 @media (max-width: 1024px) {
   .project {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
   }
   .__img_wrapper > img {
     width: 100%;
@@ -54,8 +51,8 @@
 }
 @media (max-width: 768px) {
   .project {
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 5em;
+    margin-right: 5em;
     flex-direction: column;
   }
   .__img_wrapper {

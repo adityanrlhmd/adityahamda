@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
 import { TextDecrypt } from '../content/TextDecrypt';
-import ResumePDF from './../../assets/AdityaNurulHamda-CV.pdf';
+import ResumePDF from './../../assets/AdityaNurulHamda-Resume.pdf';
 import {
   ResumeIcon
 } from '../content/ResumeButton';
