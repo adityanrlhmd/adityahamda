@@ -7,10 +7,10 @@
         "picture": "mt.png",
         "job1": "Software",
         "job2": "Engineer",
-        "description": "Hello! I'm Aditya Nurul Hamda a Developer. With hands-on experience in front-end development, I've crafted a variety of web and mobile apps using React.js, React Native, Next.js, Vue.js Tailwind CSS, and Swift. Proficient in RESTful and GraphQL APIs, I prioritize user-friendly experiences and excel in collaborative teams. I also stay updated with industry trends.",
+        "description": "Hello! I'm Aditya a Developer. With hands-on experience in front-end development, I've crafted a variety of web and mobile apps using React.js, React Native, Next.js, Vue.js Tailwind CSS, and Swift. Proficient in RESTful and GraphQL APIs, I prioritize user-friendly experiences and excel in collaborative teams. I also stay updated with industry trends.",
         "summary": "based in Sukabumi, Indonesia.",
         "keywords": "personal,website,portfolio,aditya,nurul,hamda,webdev,web,developer,sukabumi,indonesia,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,frontend,softwaredev",
-        "url": "https://adityahamda.vercel.app/",
+        "url": "https://adityahamda.vercel.app",
         "location": {
             "address": "Kebon Pala 1 Cibadak",
             "postalCode": "43351",
