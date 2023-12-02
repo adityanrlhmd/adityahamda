@@ -25,7 +25,7 @@ export const SideNavbar = () => {
           activeNav === "#skills" ? "active" : ""
         } hover:text-primary`}
       >
-        <Typography>Skills</Typography>
+        <Typography>Experience</Typography>
       </a>
       <a
         href="#works"
